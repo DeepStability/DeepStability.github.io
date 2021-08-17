@@ -20,6 +20,7 @@ html {
 }
 
 body {
+	width: 100%;
 	color: #343434;
 	background-color: #F7FFF7;
 	margin: 0;
@@ -53,7 +54,6 @@ h1, h2 {
 	margin: 0;
 }
 .content-wrapper {
-	width: 100%;
 	padding-bottom: 10px;
 	margin-left: 15px;
 	padding-left: 40px;
@@ -103,18 +103,23 @@ h3 {
 /* Profile
 ----------------------------------------------------*/
 header {
+	width: 5450px;
 	background: #00204F;
 	color: #F7FFF7;
-	text-align: center;
-	margin-bottom: 0px;
+	text-align: left;
+	margin-right: 4000px;
+	/* margin-bottom: 0px;
 	margin-left: 0%;
-	margin-right: 0%;
+	margin-right: 0%; */
 	background-image: url(../images/graphic.png), url(../images/graphic_left_v2.png);
 	background-position: top right 0px, top left -30px;
 	background-repeat: no-repeat;
 }
 header h2 {
-	margin-left: 40px;
+	/* margin-right: 1000px; */
+	text-align: left;
+	margin-left: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	color: #F7FFF7;
 }
